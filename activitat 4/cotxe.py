@@ -5,7 +5,7 @@ class Cotxe:
         self.color=color
         self.kilometraje = kilometraje
         self.tipos = tipos
-
+    # Getters
     def getMarca(self):
         return  self.marca
     def getModel(self):
@@ -16,4 +16,21 @@ class Cotxe:
         return  self.kilometraje
     def getTipos(self):
         return self.tipos
+    
+   # Setters
+    def setMarca(self, marca):
+        self.marca = marca
+
+    def setModel(self, model):
+        self.model = model
+
+    def setColor(self, color):
+        self.color = color
+
+    def setKilometraje(self, kilometraje):
+        self.kilometraje = kilometraje
+
+    def setTipos(self, tipos):
+        self.tipos = tipos
+
 

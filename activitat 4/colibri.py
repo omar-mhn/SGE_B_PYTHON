@@ -5,7 +5,7 @@ class Colibri:
         self.color_ojos = color_ojos
         self.pico=pico 
         self.color_plumas = color_plumas
-
+    # Getters
     def getColor(self):
         return self.color
     def getTamaño(self):
@@ -16,3 +16,19 @@ class Colibri:
         return self.pico
     def getColorPlumas(self):
         return self.color_plumas
+    
+     # Setters
+    def setColor(self, color):
+        self.color = color
+
+    def setTamaño(self, tamaño):
+        self.tamaño = tamaño
+
+    def setColorOjos(self, color_ojos):
+        self.color_ojos = color_ojos
+
+    def setPico(self, pico):
+        self.pico = pico
+
+    def setColorPlumas(self, color_plumas):
+        self.color_plumas = color_plumas
